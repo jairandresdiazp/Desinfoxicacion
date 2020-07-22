@@ -1,0 +1,6 @@
+Time : 11:46:45: Error en la clase Datos metodo resultados SQLSTATE[HY000] [2002] An attempt was made to access a socket in a way forbidden by its access permissions.
+
+Time : 11:46:45: Error en la clase Datos metodo consultar SQLSTATE[HY000] [2002] An attempt was made to access a socket in a way forbidden by its access permissions.
+
+Time : 11:46:45: Error en la clase Datos metodo Datos SQLSTATE[HY000] [2002] An attempt was made to access a socket in a way forbidden by its access permissions.
+

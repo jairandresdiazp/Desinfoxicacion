@@ -1,0 +1,13 @@
+<Files ~ "^\.(htaccess)$">
+deny from all
+</Files>
+ErrorDocument 400 /desinfoxicacion/page-404.php
+ErrorDocument 404 /desinfoxicacion/page-404.php
+ErrorDocument 500 /desinfoxicacion/page-500.php
+ErrorDocument 504 /desinfoxicacion/page-500.php
+DirectoryIndex page-login.php 
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php 
+order deny,allow

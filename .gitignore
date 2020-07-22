@@ -1,0 +1,5 @@
+node_modules/
+ArchivosGuia/
+.sass-cache/
+.vscode/
+*.ini
